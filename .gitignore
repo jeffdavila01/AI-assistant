@@ -1,0 +1,43 @@
+﻿
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+*.log
+database/memory.json
+database/memory.json.*.tmp
+backups/
+
+# Dependencies
+node_modules/
+
+# Credentials
+.env
+.env.*
+*.pem
+*.key
+
+# Build output
+dist/
+build/
+.next/
+coverage/
+
+# Private local data
+database/
+backups/
+workspace/
+projects/
+*.log
+*.tmp
+.local-inference-active
+
+# Local development
+.vscode/
+__pycache__/
+.venv/
+
+# Private synchronization report
+CHATGPT_UPDATE.txt
+
